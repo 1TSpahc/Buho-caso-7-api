@@ -50,7 +50,7 @@
 
 ![Primer Diseno](./screenshots/10.png)
 
-* Y reemplazamos los valorez en el archivo ```.env``` con los nuevos datos de ```cpanel```.
+* Y reemplazamos los datos en el archivo ```.env``` con los nuevos datos de ```cpanel```.
 
 * 2: El segundo archivo que modificaremos es el ```src/config/index.js``` en la linea ```13```
 
