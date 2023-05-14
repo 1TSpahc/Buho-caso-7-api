@@ -9,7 +9,7 @@ const {
 } = process.env
 
 // configurar el mensaje ⬇
-const INFO_FROM = 'christian@carhome.store' // aqui va el correo electronico de la empresa que enviara el correo
+const INFO_FROM = process.env.USERACCOUNT // aqui va el correo electronico de la empresa que enviara el correo
 const INFO_SUBJECT = 'Equipo de Carhome' // este sera el nombre que aparecera en el header del correo electronico
 
 module.exports = {
