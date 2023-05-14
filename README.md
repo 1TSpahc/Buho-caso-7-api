@@ -8,7 +8,7 @@
 * Tener instalado [Node JS → ](https://nodejs.org/es)
 * Tener instalado [GIT → ](https://git-scm.com/) Opcional
 
-# Instalacion:
+# Instalación:
 
 * Clonaremos el repositorio en nuestra maquina usando el comando ``` git clone https://github.com/1TSpahc/Buho-caso-7-api.git ```. O puedes descargar el zip.
 
@@ -36,7 +36,7 @@
 
 ![Primer Diseno](./screenshots/5.png)
 
-* Para obtener los datos que necesita nodemailer lo obtenemos de ```CPANEL```.
+* Para obtener los datos que necesita nodemailer usaremos -> ```CPANEL```.
 
 ![Primer Diseno](./screenshots/6.png)
 
@@ -56,7 +56,7 @@
 
 ![Primer Diseno](./screenshots/11.png)
 
-* Esa linea es lo que se mostrara en el correo ejemplo ->```Equipo de Carhome``` 👇
+* Esa linea es lo que se mostrará en el correo ejemplo ->```Equipo de Carhome``` 👇
 
 ![Primer Diseno](./screenshots/12.png)
 ![Primer Diseno](./screenshots/13.png)
@@ -88,7 +88,7 @@
 
 ![Primer Diseno](./screenshots/18.png)
 
-* Ahora abriremos ```Thunder client``` para probar la api. let damos  click en ```new Request```
+* Ahora abriremos ```Thunder client``` para probar la api. le damos  click en ```new Request```
 
 ![Primer Diseno](./screenshots/19.png)
 
@@ -100,7 +100,7 @@
 
 ![Primer Diseno](./screenshots/21.png)
 
-* Agregaremos el  ```Content-type```-> ```application/json```
+* Agregaremos el  ```Content-type```-> ```application/json``` (recuerda guadar los cambios.)
 
 ![Primer Diseno](./screenshots/22.png)
 
