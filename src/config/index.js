@@ -5,7 +5,10 @@ const {
   HOST,
   PORT,
   USERACCOUNT,
-  PASSWORD
+  PASSWORD,
+
+  // configuracion del servidor
+  SERVER_PORT
 } = process.env
 
 // configurar el mensaje ⬇
@@ -13,6 +16,8 @@ const INFO_FROM = process.env.USERACCOUNT // aqui va el correo electronico de la
 const INFO_SUBJECT = 'Equipo de Carhome' // este sera el nombre que aparecera en el header del correo electronico
 
 module.exports = {
+  // server config
+  SERVER_PORT,
   // account config
   HOST,
   PORT,
