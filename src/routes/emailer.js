@@ -21,7 +21,9 @@ router.post('/', async (req, res) => {
     if (name && lastname && email) {
       const emailResponse = await sendMail(name, lastname, email)
 
+      console.log({ name, lastname, email })
       console.log(emailResponse)
+
       res.status(200).json({
         messageId: emailResponse
       })
