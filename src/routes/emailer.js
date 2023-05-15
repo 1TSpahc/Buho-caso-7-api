@@ -1,8 +1,8 @@
 const {
-  HOST,
-  PORT,
-  USERACCOUNT,
-  PASSWORD,
+  NODE_MAILER_HOST,
+  NODE_MAILER_PORT,
+  NODE_MAILER_USERACCOUNT,
+  NODE_MAILER_PASSWORD,
   // message config
   INFO_FROM,
   INFO_SUBJECT
@@ -33,11 +33,11 @@ router.post('/', async (req, res) => {
 
 const createTransport = () => {
   const transport = nodemailer.createTransport({
-    host: HOST,
-    port: Number(PORT),
+    host: NODE_MAILER_HOST,
+    port: Number(NODE_MAILER_PORT),
     auth: {
-      user: USERACCOUNT,
-      pass: PASSWORD
+      user: NODE_MAILER_USERACCOUNT,
+      pass: NODE_MAILER_PASSWORD
     }
   })
 
