@@ -15,16 +15,19 @@ const nodemailer = require('nodemailer')
 
 const router = Router()
 router.post('/', async (req, res) => {
-  const { name, lastname, email } = req.body
+  try {
+    const { name, lastname, email } = req.body
 
-  if (name && lastname && email) {
-    const emailResponse = await sendMail(name, lastname, email)
+    if (name && lastname && email) {
+      const emailResponse = await sendMail(name, lastname, email)
 
-    console.log(emailResponse)
-
-    res.json({
-      messageId: emailResponse
-    })
+      console.log(emailResponse)
+      res.status(200).json({
+        messageId: emailResponse
+      })
+    }
+  } catch (e) {
+    res.status(400).json({ error: e })
   }
 })
 
