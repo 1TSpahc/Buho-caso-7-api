@@ -27,7 +27,7 @@ router.post('/', async (req, res) => {
       })
     }
   } catch (e) {
-    res.status(400).json({ error: e })
+    res.status(400).json(e)
   }
 })
 
