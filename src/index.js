@@ -8,9 +8,7 @@ const app = express()
 
 app.use(morgan('dev'))
 app.use(cors({
-  origin: 'https://buho-caso-7.vercel.app/', // Cambia esto con el origen permitido para tu cliente
-  methods: ['GET', 'POST'], // Métodos de solicitud permitidos
-  allowedHeaders: ['Content-Type'] // Encabezados permitidos
+  origin: '*'
 }
 ))
 
